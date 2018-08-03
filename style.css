@@ -1,3 +1,6 @@
+  html{
+  background-color: rgb(255,255,255);
+}
 .main_form{
   /*background: rgba(19,35,47,0.9);*/
   padding: 40px;
@@ -21,8 +24,28 @@ a{
   text-decoration: none;
 }
 
-input{
+input,select{
   font-size: 16px;
+  background-color: rgb(255,255,255);
+  background-size: auto;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-left-color: rgb(203,219,219);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: rgb(203,219,219);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: rgb(203,219,219);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-bottom-color: rgb(203,219,219);
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
   display: block;
   width: 90%;
   height: 900%;
@@ -84,6 +107,11 @@ label{
   /*border-radius: 4px;*/
 }
 
+select{
+ width: 60px;
+ padding: 18px 10px;
+}
+
 .top-row{
   content: "";
   display: table;
@@ -103,6 +131,16 @@ label{
   padding-left: 30px;
   margin-bottom: 4px;
 }
+
+/*.top-row > select {
+  float: left;
+  width: 20%;
+  margin-right: 4%;
+}
+.top-row > #telnum {
+  padding-left: 20px;
+  margin-bottom: 4px;
+}*/
 
 .button:hover{
     background-color: #000;
