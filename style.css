@@ -10,16 +10,22 @@
 h1{
   text-align: center;
   font-weight: 300px;
-  margin: 0 0 40px;
+  /*margin: 0 0 40px;*/
+  margin-left: 0px;
   font-size: 2em;
 }
 
+a{
+  color:#11939a;
+  text-decoration: none;
+}
+
 input{
-  font-size: 22px;
+  font-size: 16px;
   display: block;
-  width: 100%;
-  height: 100%;
-  padding: 5px 10px;
+  width: 90%;
+  height: 900%;
+  padding: 18px 10px;
   background: none
   border:1px solid #a0b3b0;
   border-radius: 0;
@@ -28,6 +34,10 @@ input{
 .wrap{
   position:relative;
   margin-bottom:40px;
+}
+
+.inputfield{
+  width: 76%;
 }
 
 .button{
@@ -41,7 +51,7 @@ input{
   color: #fff;
   background-color: #11939a;
   display: block;
-  width: 100%;
+  width: 73%;
 }
 
 label{
@@ -53,9 +63,15 @@ label{
   margin-bottom:4px;
   visibility: visible; 
 }
+
 .image{
-  max-width: 100px;
+  max-width: 70px;
   margin: 5px auto;
+  text-align: center;
+  padding: 15px ;
+  background: black;
+  color: white;
+  font-size:25px;
   /*border-radius: 4px;*/
 }
 
