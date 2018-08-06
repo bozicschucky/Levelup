@@ -30,12 +30,14 @@ class SignUp(object):
         pattern = re.compile("^[\w\.\+\-]+\@[\w]+\.[a-z]{2,3}$")
         if not pattern.match(email_address):
             print('Not a valid email')
+
             return False
         else:
             print('email is valid')
             return email_address
 
 
-signup = SignUp('chuck', 'mark')
+signup = SignUp('chuck', 'mark','chuck1@mark.com')
 signup.combined_name()
+
 signup.submit()
