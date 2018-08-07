@@ -104,7 +104,6 @@ label{
   background: black;
   color: white;
   font-size:25px;
-  /*border-radius: 4px;*/
 }
 
 select{
@@ -132,19 +131,55 @@ select{
   margin-bottom: 4px;
 }
 
-/*.top-row > select {
-  float: left;
-  width: 20%;
-  margin-right: 4%;
-}
-.top-row > #telnum {
-  padding-left: 20px;
-  margin-bottom: 4px;
-}*/
-
 .button:hover{
     background-color: #000;
 }
 .button:focus{
     background-color: green;
+}
+
+
+/*Responsive design part of the web form*/
+@media only screen and (max-width: 750px) {
+
+input,select{
+  width: 100%;
+  height: 900%;
+}
+
+.slogan{
+  margin-left: 25%;
+  font-size: 15px;
+}
+
+.image{
+  max-width: 70px;
+  margin: 5px auto;
+  text-align: center;
+  padding: 10px ;
+  background: black;
+  color: white;
+  font-size:25px;
+}
+
+
+.display{
+  margin-right: 10px;
+}
+
+.inputfield{
+  width: 94%;
+}
+
+.top-row > div {
+  float: left;
+  width: 40%;
+  margin-right: 3%;
+  margin-top: 10px;
+}
+
+#lastname{
+  position: relative;
+}
+
 }
