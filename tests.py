@@ -25,12 +25,13 @@ class TestSignup(unittest.TestCase):
     def test_submit_lenght(self):
         self.assertEqual(1, len(self.signup.submit()))
 
-    def test_submit_lenght(self):
+    def test_submit_user_type(self):
         self.assertIs(dict, type(self.user))
 
     def test_submit_user_object(self):
         self.assertEqual(
-            {'first_name': 'chuck', 'last_name': 'mark', 'email': 'chuck1@mark.com'}, self.user)
+            {'first_name': 'chuck', 'last_name': 'mark',
+             'email': 'chuck1@mark.com'}, self.user)
 
 
 if __name__ == '__main__':
